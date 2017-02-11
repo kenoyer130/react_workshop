@@ -1,13 +1,21 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 
-class HelloSlide extends React.Component {
+const HelloSlide = () => {
+    const body = `
+# test
 
-  render() {
-    return (
-        <div>Hello From React</div>
-    );
-  }
-}
+* point 1
+* point 2
+
+\`\`\`
+are you code
+\`\`\`
+`;    
+        return (
+            <ReactMarkdown source={body} />
+        )
+    }   
 
 
 export default HelloSlide;

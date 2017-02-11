@@ -1,18 +1,24 @@
 import React from 'react';
 
 import Slider from './Slider'
-import Slide from './Slide'
+import SliderHeader from './SliderHeader'
 
 import HelloSlide from './slides/HelloSlide'
+import Slide2 from './slides/Slide2'
 
 class SlideRoot extends React.Component {
+  
   render() {
     return (
-     <Slider title={this.props.title} currentIndex={this.props.currentIndex} total={this.props.total} >
-       <Slide>
-        <HelloSlide />
-       </Slide>
-     </Slider>
+      <div>
+        <SliderHeader {...this.props} />
+        <Slider
+          currentIndex={this.props.currentIndex} 
+          onSlidesLoaded={this.props.onSlidesLoaded}> 
+            <HelloSlide {...this.props} />
+            <Slide2 {...this.props} />
+        </Slider>
+     </div>
     );
   }
 }
