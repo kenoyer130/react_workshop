@@ -17,7 +17,7 @@ class App extends Component {
     document.onkeydown = (e) => {
       if(e.code === 'ArrowLeft') {
         this.goBack();
-     } else if(e.code === 'ArrowRight') {
+     } else if(e.code === 'ArrowRight' || e.code === 'Space') {
        this.goNext();
      }
     };
@@ -42,7 +42,10 @@ class App extends Component {
   }
 
   onSlidesLoaded = (totalSlides) => {
-    this.setState({...this.state, total: totalSlides});
+    //this.setState({...this.state, total: totalSlides});
+    this.setState({...this.state,
+       total: totalSlides, 
+       currentIndex: totalSlides - 1});
   }
 
   render() {

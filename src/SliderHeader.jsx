@@ -1,10 +1,12 @@
 import React from 'react';
 
 class SliderHeader extends React.Component {
+
+
     render() {
         return (
             <div>
-                {this.props.currentIndex + 1} of {this.props.total}
+               Slide {this.props.currentIndex + 1} of {this.props.total}
            </div>
         )
     }
