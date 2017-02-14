@@ -7,8 +7,8 @@ const slide =  Slide (`
 
 \`\`\`
 // file: my_module.js
-// this method is private to the file
-_foo() {
+// this method is private to the file since there is no export keyword
+foo() {
     ...
 }
 

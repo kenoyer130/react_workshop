@@ -27,7 +27,7 @@ class Hello extends React.Component {
         return (
             <div>
                 <Wrapper />
-                <div>
+                <div className='react'>
                     Hello World!
                 </div>
             </div>

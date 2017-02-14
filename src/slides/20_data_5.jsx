@@ -2,8 +2,8 @@ import Slide from '../Slide';
 import React from 'react'
 
 const Wrapper =  Slide (`
-# React PropTypes
-* Allows you to define expected props for you component
+# Default Prop Values
+* By setting the getDefaultProps funtion we can initialize our component properties
 
 \`\`\`
 class Hello extends React.Component {
@@ -11,21 +11,21 @@ class Hello extends React.Component {
     render() {
         return (
             <div>
-                Clicked {this.props.y} times <-- note { } JSX to render javascript
+                Your name is {this.props.name}
             </div>
         )
     }
 }  
 
 Hello.propTypes = {
-    y: React.PropTypes.number.isRequired
+    name: React.PropTypes.string.isRequired
 }
 
-// These will all throw warnings
-<Hello/>
-<Hello y='test' />
-
+Hello.defaultProps = {
+        name: 'John Smith'
+}
 \`\`\`
+
 `);     
 
 class Root extends React.Component {
@@ -35,25 +35,28 @@ class Root extends React.Component {
             <div>
                 <Wrapper />
                 <Hello/>
-                <Hello y='test' />
             </div>
         )
     }
-}  
+} 
 
 class Hello extends React.Component {
 
     render() {
         return (
             <div className='react'>
-                Clicked {this.props.y} times
+                Your name is {this.props.name}
             </div>
         )
     }
 }  
 
 Hello.propTypes = {
-    y: React.PropTypes.number.isRequired
+    name: React.PropTypes.string.isRequired
+}
+
+Hello.defaultProps = {
+        name: 'John Smith'
 }
 
 export default Root;

@@ -78,7 +78,7 @@ class Hello extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='react'>
                 Hello World!
             </div>
         )
@@ -88,7 +88,7 @@ class Hello extends React.Component {
 class Goodbye extends React.Component {
     render() {
         return (
-            <div>
+            <div className='react'>
                 Goodby Cruel World!
             </div>
         )

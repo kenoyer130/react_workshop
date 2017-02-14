@@ -6,8 +6,8 @@ const Wrapper =  Slide (`
 * Parameters that are passed into the component
 * Accessed with this.props
 * Are readonly. Cannot be changed
-* If the parent passes in a new prop, a component rerender is trigger.
-* You want as much data in props as possible
+* If the parent changes a property value, a component rerender is trigger.
+* You want to use props as much as possible versus state
 
 \`\`\`
 class Hello extends React.Component {
@@ -50,7 +50,7 @@ class Hello extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='react'>
                 Clicked {this.props.y} times
             </div>
         )

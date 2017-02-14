@@ -31,12 +31,19 @@ import JSX from './slides/18_jsx'
 import JSX1 from './slides/18_jsx_1'
 import JSX2 from './slides/18_jsx_2'
 import JSX3 from './slides/18_jsx_3'
+import JSX4 from './slides/18_jsx_4'
 import Attach from './slides/19_attach'
 import Attach1 from './slides/19_attach_1'
 import Data1 from './slides/20_data_1'
 import Data2 from './slides/20_data_2'
 import Data3 from './slides/20_data_3'
 import Data4 from './slides/20_data_4'
+import Data5 from './slides/20_data_5'
+import Data6 from './slides/20_data_6'
+import Data7 from './slides/20_data_7'
+import Data8 from './slides/20_data_8'
+import State from './slides/21_store_1'
+import State2 from './slides/21_store_2'
 
 class SlideRoot extends React.Component {
   
@@ -72,15 +79,22 @@ class SlideRoot extends React.Component {
             <Tree />
             <Render />
             <JSX />
+            <JSX4 />
             <JSX1 />
             <JSX2 />
-            <JSX3 />
+            <JSX3 /> 
             <Attach />
             <Attach1 />
             <Data1 />
             <Data2 />
             <Data3 />
             <Data4 />
+            <Data5 />
+            <Data6 />
+            <Data7 />
+            <Data8 />
+            <State />
+            <State2 />
         </Slider>
      </div>
     );
