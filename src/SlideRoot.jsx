@@ -4,6 +4,7 @@ import Slider from './Slider'
 import SliderHeader from './SliderHeader'
 
 import Welcome from './slides/00_Welcome'
+import Welcome1 from './slides/01_Welcome_1'
 import WhatReact from './slides/01_WhatReact'
 import WhyReact from './slides/02_WhyReact'
 import WhatReactNot from './slides/03_WhatReactNot'
@@ -32,6 +33,7 @@ import JSX1 from './slides/18_jsx_1'
 import JSX2 from './slides/18_jsx_2'
 import JSX3 from './slides/18_jsx_3'
 import JSX4 from './slides/18_jsx_4'
+import JSX5 from './slides/18_jsx_5'
 import Attach from './slides/19_attach'
 import Attach1 from './slides/19_attach_1'
 import Data1 from './slides/20_data_1'
@@ -52,6 +54,22 @@ import State4 from './slides/21_store_4'
 import State6 from './slides/21_store_6'
 import State7 from './slides/21_store_7'
 import State8 from './slides/21_store_8'
+import Life1 from './slides/22_lifecycle_1'
+import Life2 from './slides/22_lifecycle_2'
+import Life3 from './slides/22_lifecycle_3'
+import Life4 from './slides/22_lifecycle_4'
+import Life5 from './slides/22_lifecycle_5'
+import Life6 from './slides/22_lifecycle_6'
+import Life7 from './slides/22_lifecycle_7'
+import Life8 from './slides/22_lifecycle_8'
+import Shadow1 from './slides/23_shadow_1'
+import Shadow2 from './slides/23_shadow_2'
+import HOC from './slides/24_HOC_1'
+import Trick1 from'./slides/25_trick_1'
+import Trick2 from'./slides/25_trick_2'
+import Mock from './slides/26_workshop_1'
+import Done from'./slides/25_trick_3'
+import Dev from './slides/21_store_7_1'
 
 class SlideRoot extends React.Component {
   
@@ -63,6 +81,7 @@ class SlideRoot extends React.Component {
           currentIndex={this.props.currentIndex} 
           onSlidesLoaded={this.props.onSlidesLoaded}> 
             <Welcome />
+            <Welcome1 />
             <WhatReact />
             <WhyReact />
             <WhatReactNot />
@@ -90,7 +109,8 @@ class SlideRoot extends React.Component {
             <JSX4 />
             <JSX1 />
             <JSX2 />
-            <JSX3 /> 
+            <JSX3 />
+             <JSX5 /> 
             <Attach />
             <Attach1 />
             <Data1 />
@@ -110,7 +130,23 @@ class SlideRoot extends React.Component {
             <State4 />
             <State6 />
             <State7 />
+            <Dev />
             <State8 />
+            <Life1 />
+            <Life2 />
+            <Life3 />
+            <Life4 />
+            <Life5 />
+            <Life6 />
+            <Life7 />
+            <Life8 />
+            <Shadow1 />
+            <Shadow2 />
+            <HOC />
+            <Trick1 />
+            <Trick2 />
+            <Done />
+            <Mock />
         </Slider>
      </div>
     );

@@ -11,7 +11,7 @@ class Hello extends React.Component {
     render() {
         return (
             <div>
-                Clicked {this.props.y} times <-- note { } JSX to render javascript
+                Clicked {this.props.y} times 
             </div>
         )
     }

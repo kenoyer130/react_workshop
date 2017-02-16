@@ -1,7 +1,7 @@
 import Slide from '../Slide';
 
 const slide =  Slide (`
-# Side Tangent (Rant?) - Use Javascript/Html/Css
+#  Use Javascript/Html/Css
 
 * Yes Javascript is *The Suck* (ES 6 makes it much better!)
 * Using JS will future proof your project
@@ -16,6 +16,6 @@ const slide =  Slide (`
 * CoffeeScript
 * Adobe Air
 * And many, many more
-`);     
+`, 'rage');     
 
 export default slide;

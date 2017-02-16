@@ -7,6 +7,6 @@ const slide =  Slide (`
 * Used by Unit tests to output to JSDOM instead
 * Used by React Native to output to Native code
 
-`);     
+`,'nerd');     
 
 export default slide;

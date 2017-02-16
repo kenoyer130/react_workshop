@@ -10,6 +10,6 @@ const slide =  Slide (`
 * WebPack2 - precompiler and bundler/minifier for production/tree shaking
 * Babel - downgrade ES6 JS to ES5 browser versions
 
-`);     
+`, 'nerd');     
 
 export default slide;

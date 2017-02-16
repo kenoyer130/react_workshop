@@ -9,7 +9,8 @@ class App extends Component {
 
     this.state = {
        currentIndex: 0,
-       total: 0
+       total: 0,
+       go: ''
     };
   }
 
@@ -42,10 +43,19 @@ class App extends Component {
   }
 
   onSlidesLoaded = (totalSlides) => {
-    //this.setState({...this.state, total: totalSlides});
-    this.setState({...this.state,
+    this.setState({...this.state, total: totalSlides});
+   /* this.setState({...this.state,
        total: totalSlides, 
-       currentIndex: totalSlides - 1});
+       currentIndex: totalSlides - 1});*/
+  }
+
+  onGoChange = (value) => {
+        this.setState({...this.state, go: value});
+        
+  }
+
+  onGo = () => {
+        this.setState({...this.state, go: '', currentIndex: Number(this.state.go) - 1});
   }
 
   render() {
@@ -53,7 +63,10 @@ class App extends Component {
       <SlideRoot 
         currentIndex={this.state.currentIndex} 
         total={this.state.total}
+        go={this.state.go}
         onSlidesLoaded={this.onSlidesLoaded}
+        onGoChange={this.onGoChange}
+        onGo={this.onGo}
       />
     );
   }

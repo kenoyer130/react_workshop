@@ -57,7 +57,7 @@ class Hello extends React.Component {
 } 
 \`\`\`
 
-`);     
+`, 'nerd');     
 
 class RootContainer extends React.Component {
 

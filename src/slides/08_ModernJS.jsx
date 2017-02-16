@@ -9,6 +9,6 @@ const slide =  Slide (`
 * React doesn't care what version of JS you use.
 
 ## Now for a QUICK guide to explain the syntax you  will see moving forward!
-`);     
+`, 'nerd');     
 
 export default slide;

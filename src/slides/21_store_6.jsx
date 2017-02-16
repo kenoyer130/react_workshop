@@ -28,7 +28,7 @@ const Hello = (props) => {
     );
 }
 \`\`\`
-`);     
+`, 'nerd');     
 
 class Root extends React.Component {
 
