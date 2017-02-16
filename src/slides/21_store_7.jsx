@@ -1,6 +1,5 @@
 import Slide from '../Slide';
 import React from 'react'
-import PNG from './images/lifecycle.png'
 import PNG1 from './images/medium.png'
 
 const Body =  Slide (`

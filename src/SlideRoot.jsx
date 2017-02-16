@@ -40,7 +40,10 @@ import Data3 from './slides/20_data_3'
 import Data4 from './slides/20_data_4'
 import Data5 from './slides/20_data_5'
 import Data6 from './slides/20_data_6'
+import Data61 from './slides/20_data_61'
 import Data7 from './slides/20_data_7'
+import Data71 from './slides/20_data_71'
+import Data72 from './slides/20_data_72'
 import Data8 from './slides/20_data_8'
 import State from './slides/21_store_1'
 import State2 from './slides/21_store_2'
@@ -96,7 +99,10 @@ class SlideRoot extends React.Component {
             <Data4 />
             <Data5 />
             <Data6 />
+            <Data61 />
             <Data7 />
+            <Data71 />
+            <Data72 />
             <Data8 />
             <State />
             <State2 />

@@ -6,6 +6,7 @@ const Welcome =  Slide (`
 * React has no idea how to fetch data
 * React has no idea how to structure your routes
 * React really doesn't know anything except for presenting UI
+* React is intentionally *Batteries NOT included*
 `);     
 
 export default Welcome;

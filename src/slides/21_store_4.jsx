@@ -7,7 +7,7 @@ const Wrapper =  Slide (`
 * Presentational Components are readonly that render based on props
 
 \`\`\`
-class Root extends React.Component { <-- This is a Container 
+class RootContainer extends React.Component { <-- This is a Container 
    constructor(props) {
         super(props);
 
@@ -59,7 +59,7 @@ class Hello extends React.Component {
 
 `);     
 
-class Root extends React.Component {
+class RootContainer extends React.Component {
 
     constructor(props) {
         super(props);
@@ -109,4 +109,4 @@ class Hello extends React.Component {
     }
 } 
 
-export default Root;
+export default RootContainer;
