@@ -6,7 +6,7 @@ const Wrapper =  Slide (`
 * Parameters that are passed into the component
 * Accessed with this.props
 * Are readonly. Cannot be changed
-* If the parent changes a property value, a component rerender is trigger.
+* If the parent passes in a changed property value, a component rerender is trigger.
 * You want to use props as much as possible versus state
 
 \`\`\`

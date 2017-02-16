@@ -1,5 +1,4 @@
 import Slide from '../Slide';
-import React from 'react'
 
 const Root =  Slide (`
 # The Component State
