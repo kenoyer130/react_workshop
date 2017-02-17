@@ -1,7 +1,7 @@
 import Slide from '../Slide';
 
 const slide =  Slide (`
-# Create-React-App Javascipt client stack
+# Create-React-App Javascript client stack
 
 *None of these are required to use React!*
 

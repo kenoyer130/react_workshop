@@ -5,8 +5,6 @@ const slide =  Slide (`
 * Well thought out and commented PropTypes are your component public api
 * React scales well since when a developer runs into a new component they can just scan the prop types as a starting point
 * Forces you to think about what PropTypes your component needs
-* If your component seems to need a lot of prop types that are unrelated, most likely you need to break it apart
-* "You can't fix stupid" - No library can overcome a bad programmer who refuses to use its features
 
 \`\`\`
 // random example from https://github.com/callemall/material-ui/blob/master/src/Card/CardText.js

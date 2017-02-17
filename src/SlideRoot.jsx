@@ -54,6 +54,8 @@ import State4 from './slides/21_store_4'
 import State6 from './slides/21_store_6'
 import State7 from './slides/21_store_7'
 import State8 from './slides/21_store_8'
+import State9 from './slides/21_store_9'
+import State10 from './slides/21_store_10'
 import Life1 from './slides/22_lifecycle_1'
 import Life2 from './slides/22_lifecycle_2'
 import Life3 from './slides/22_lifecycle_3'
@@ -62,6 +64,7 @@ import Life5 from './slides/22_lifecycle_5'
 import Life6 from './slides/22_lifecycle_6'
 import Life7 from './slides/22_lifecycle_7'
 import Life8 from './slides/22_lifecycle_8'
+import Life9 from './slides/22_lifecycle_9'
 import Shadow1 from './slides/23_shadow_1'
 import Shadow2 from './slides/23_shadow_2'
 import HOC from './slides/24_HOC_1'
@@ -130,6 +133,8 @@ class SlideRoot extends React.Component {
             <State4 />
             <State6 />
             <State7 />
+            <State9 />
+            <State10 />
             <Dev />
             <State8 />
             <Life1 />
@@ -140,6 +145,7 @@ class SlideRoot extends React.Component {
             <Life6 />
             <Life7 />
             <Life8 />
+            <Life9 />
             <Shadow1 />
             <Shadow2 />
             <HOC />

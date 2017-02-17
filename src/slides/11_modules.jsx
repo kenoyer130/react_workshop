@@ -13,7 +13,7 @@ foo() {
 }
 
 // this method can be imported to another module
-export foo() {
+export fooYou() {
     ...
 }
 

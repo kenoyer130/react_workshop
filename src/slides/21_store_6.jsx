@@ -4,7 +4,7 @@ import React from 'react'
 const Wrapper =  Slide (`
 # The Component State - Stateless Components Functions
 * If a Component does not use any lifecycle methods and only renders based on props, it can be made into a Stateless Component
-* More consise code
+* More concise code
 * Currently does not render faster but React team has API compatible upgrade planned that will make them render faster and use less memory.
 
 \`\`\`

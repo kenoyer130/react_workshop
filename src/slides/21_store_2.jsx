@@ -26,7 +26,7 @@ class Root extends React.Component {
 
         // this.state = { value: 4, label: '' } <-- won't work since you are not calling setState
 
-        // this.state = { value: 4} <-- careful you just created a new state with only the value property!
+        // this.state = setState({ value: 4}) <-- careful you just created a new state with only the value property!
 
         // this.setState({...this.state, label: 'test'}); <-- won't work due to setStore being async
         // this.setState({...this.state, value: 4}); <-- this line will reset the label back
